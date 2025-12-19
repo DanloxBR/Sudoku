@@ -1,7 +1,10 @@
 <div align="center">
-🧩 Sudoku Game — Java & Swing
+🧩 Sudoku Desktop Game
+Java • Swing • Clean Code
 
-✨ Um jogo de Sudoku interativo, elegante e inteligente, desenvolvido em Java com Swing, focado em boas práticas, experiência do usuário e organização de código.
+Um jogo de Sudoku desenvolvido em Java, com foco em lógica, eventos, arquitetura limpa e experiência do usuário.
+
+🚀 Projeto ideal para estudo, portfólio e demonstração de boas práticas.
 
 
 
@@ -11,44 +14,33 @@
 
 
 </div>
-🎮 Visão Geral
+____________________________________________________________________________________________________________________________________________________
 
-Este projeto é um Sudoku desktop completo, criado para aplicar na prática conceitos de Programação Orientada a Objetos, eventos/listeners, validação de regras e interface gráfica em Java.
+🧠 Sobre o Projeto
 
-O jogo fornece feedback visual imediato, registra todas as ações do jogador e identifica automaticamente quando o Sudoku é concluído corretamente.
+Este projeto nasceu com o objetivo de colocar em prática conceitos fundamentais de desenvolvimento Java, indo além do básico:
 
-✨ Funcionalidades Principais
+✔️ Lógica real de Sudoku
+✔️ Interação por eventos (listeners)
+✔️ Separação entre UI e regras de negócio
+✔️ Feedback visual claro e intuitivo
 
-🧠 Lógica Inteligente
+Tudo isso em uma aplicação desktop robusta e bem estruturada.
+_______________________________________________________________________________________________________________________________________________________
+🎯 O que este Sudoku entrega?
 
-Geração automática de tabuleiro válido
+🔢 Jogabilidade Completa
 
-Validação em tempo real das jogadas
+Inserção e validação de números
 
-Verificação de conclusão do jogo
+Bloqueio de células fixas
 
-🎨 Feedback Visual Intuitivo
+Detecção automática de vitória
 
-🟢 Número correto
+🎨 Feedback Visual Inteligente
 
-🔴 Número incorreto
-
-🟡 Número possível (cabível)
-
-📜 Histórico de Jogadas
-
-Painel lateral com log detalhado
-
-Registro de cada ação do jogador
-
-🔒 Regras do Jogo
-
-Células fixas protegidas
-
-Apenas valores válidos permitidos
-
-🖥️ Interface Desktop
-
-Desenvolvida em Java Swing
-
-Layout simples, limpo e funcional
+| Cor         | Significado      |
+| ----------- | ---------------- |
+| 🟢 Verde    | Número correto   |
+| 🔴 Vermelho | Número incorreto |
+| 🟡 Amarelo  | Número possível  |
