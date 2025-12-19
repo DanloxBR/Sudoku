@@ -1,99 +1,54 @@
-🧩 Sudoku em Java
+<div align="center">
+🧩 Sudoku Game — Java & Swing
 
-Projeto de Sudoku desenvolvido em Java, com interface gráfica usando Swing, seguindo boas práticas de organização em camadas (model, service e ui).
-O jogo permite interação completa do usuário, validação das jogadas, feedback visual por cores e registro de ações em log.
+✨ Um jogo de Sudoku interativo, elegante e inteligente, desenvolvido em Java com Swing, focado em boas práticas, experiência do usuário e organização de código.
 
-📌 Funcionalidades
 
-🎮 Jogo de Sudoku totalmente funcional
 
-🧠 Geração automática de tabuleiro válido
 
-🔢 Inserção de números pelo usuário
 
-✅ Validação das jogadas em tempo real
 
-🎨 Feedback visual:
 
-🟢 Verde → número correto
 
-🔴 Vermelho → número incorreto
+</div>
+🎮 Visão Geral
 
-🟡 Amarelo → número possível (cabível)
+Este projeto é um Sudoku desktop completo, criado para aplicar na prática conceitos de Programação Orientada a Objetos, eventos/listeners, validação de regras e interface gráfica em Java.
 
-📜 Painel de log com histórico das jogadas
+O jogo fornece feedback visual imediato, registra todas as ações do jogador e identifica automaticamente quando o Sudoku é concluído corretamente.
 
-🏁 Detecção automática de conclusão do jogo
+✨ Funcionalidades Principais
 
-🔒 Células fixas (não editáveis)
+🧠 Lógica Inteligente
 
-🏗️ Estrutura do Projeto
-src/
- └── com.bringto.sudoku
-      ├── model        # Entidades (Board, Space, CellStatus)
-      ├── service      # Regras de negócio e validações
-      └── ui
-           ├── custom
-           │     ├── panel   # Painéis (tabuleiro, log)
-           │     └── input   # Componentes customizados (NumberText)
-           └── screen        # Tela principal do jogo
+Geração automática de tabuleiro válido
 
-🧠 Conceitos Utilizados
+Validação em tempo real das jogadas
 
-Programação Orientada a Objetos (POO)
+Verificação de conclusão do jogo
 
-Java Swing (UI Desktop)
+🎨 Feedback Visual Intuitivo
 
-Listeners e eventos
+🟢 Número correto
 
-Separação de responsabilidades
+🔴 Número incorreto
 
-Validação de regras de negócio
+🟡 Número possível (cabível)
 
-Uso de boolean[][], enums e coleções
+📜 Histórico de Jogadas
 
-Padrão de camadas (Model / Service / UI)
+Painel lateral com log detalhado
 
-🚀 Como Executar o Projeto
-Pré-requisitos
+Registro de cada ação do jogador
 
-Java 8 ou superior
+🔒 Regras do Jogo
 
-IDE (IntelliJ, Eclipse ou VS Code)
+Células fixas protegidas
 
-Passos
-# Clone o repositório
-git clone https://github.com/DanloxBR/Sudoku.git
+Apenas valores válidos permitidos
 
-# Abra o projeto na sua IDE
+🖥️ Interface Desktop
 
-# Execute a classe MainScreen (ou classe principal)
+Desenvolvida em Java Swing
 
-🖥️ Interface
-
-A interface foi desenvolvida em Java Swing, com foco em simplicidade e clareza:
-
-Tabuleiro central de Sudoku
-
-Painel lateral de log
-
-Cores para facilitar o aprendizado e correção do jogador
-
-📈 Possíveis Melhorias Futuras
-
-⏱️ Cronômetro de tempo
-
-📊 Sistema de pontuação
-
-💾 Salvar e carregar partidas
-
-🎚️ Níveis de dificuldade
-
-🧪 Testes unitários
-
-🌙 Tema escuro (Dark Mode)
-
-👨‍💻 Autor
-
-Daniel Oliveira
-Desenvolvedor Java | Estudante e entusiasta de boas práticas de software
+Layout simples, limpo e funcional
