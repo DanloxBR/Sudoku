@@ -1,6 +1,6 @@
 <div align="center">
-🧩 Sudoku Desktop Game
-Java • Swing • Clean Code
+🧩 Sudoku
+  Java • Swing • Clean Code
 
 Um jogo de Sudoku desenvolvido em Java, com foco em lógica, eventos, arquitetura limpa e experiência do usuário.
 
