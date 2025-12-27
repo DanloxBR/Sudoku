@@ -23,8 +23,11 @@ ________________________________________________________________________________
 Este projeto nasceu com o objetivo de colocar em prática conceitos fundamentais de desenvolvimento Java, indo além do básico:
 
 ✔️ Lógica real de Sudoku
+
 ✔️ Interação por eventos (listeners)
+
 ✔️ Separação entre UI e regras de negócio
+
 ✔️ Feedback visual claro e intuitivo
 
 Tudo isso em uma aplicação desktop robusta e bem estruturada.
